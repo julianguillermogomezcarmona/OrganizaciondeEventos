@@ -1,0 +1,216 @@
+html{
+font-size: 62.5%;/*reset para rems 62.5%=10px*/
+box-sizing: border-box; 
+}
+*,*::before,*::after{
+  box-sizing: inherit;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+p{
+  font-size: 1.6rem;
+}
+
+/*Estilos globales*/
+.contenedor{
+  /*width: 95%;*/
+  max-width: 110rem;
+  margin: 0 auto;
+}
+.boton{
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: #f32f71;
+  border-radius: 3rem;
+  color: #ffffff;
+  display: inline-block;
+  margin: 1rem 0 0 0;
+}
+.centrartexto{
+text-align: center;   
+}
+.bajartexto p{
+  margin-top: 0;
+ padding: 0 0 1rem 0;
+}
+img{
+  max-width: 100%;
+}
+.letrablanca{
+  color: blanchedalmond;
+}
+.contenedor2{
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.seccion {
+  margin: 2rem auto;
+}
+h2{
+  color: #f32f71;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+/*.letra{
+  width: 70%;
+  font-size: 1.6rem; 
+}
+.letra h2{
+  color: aqua;
+}*/
+
+
+/*Construccion de la barra de navegacion*/
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+header p{
+  color: #ffffff;
+}
+.barra{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.barra img{
+  padding-top: 1rem;
+}
+.navegacion a{
+margin-right: 2rem;
+text-decoration: none;
+font-size: 1.6rem;
+color: #ffffff;
+}
+.navegacion a:hover{
+color: #f592e8; 
+}
+.navegacion a:last-of-type{
+  margin-right: 0rem;
+}
+.navegacion p{
+  color: #ffffff;
+}
+.fondo{
+  background-image: url(../imagenes/organizacion\ de\ eventos.jpg);
+background-position: center center;
+}
+.bajartexto h1{
+  margin-bottom: 0;
+}
+
+
+/*construccion de la seccion principal del index*/
+.cuadrar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+/*.cuadrar img{
+  height: 273;
+  max-width: 25%;
+  height: auto;
+  width: auto;
+}*/
+.organizartexto{
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.organizartexto p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+.organizartexto h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bloque{
+  flex: 0 0 calc(49.95% - 1rem); /*grow shrink basis*/
+  margin-bottom: 2rem;
+  border: 0.1rem solid rgb(124, 124, 119);
+  background-color: rgba(156, 158, 163, 0.185);
+  text-align: center;
+}
+/*bloque img{
+  padding: 0rem;
+  border-radius: 100%;
+  height: 10rem;
+  width: 10rem;
+  margin-top: 1rem;
+}*/
+.bloque img{
+  height: 26.3rem;
+}
+.bloque h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #f32f71; 
+}
+.bloque a:hover{
+  color: #ffffff;
+}
+.bajartexto h3{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*footer*/
+footer{
+  background-color: rgb(107, 109, 108);
+}
+.Nombre_de_empresa h3{
+  color: #ffffff;
+  font-size: 3.8rem;
+}
+.Nombre_de_empresa span{
+  font-weight: 900;
+}
+.datos_contacto{
+margin-top: 2rem;
+color: #ffffff;
+}
+.datos_contacto h4{
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+}
+.copy{
+  margin: 0;
+  color: #ffffff;
+}
+.barra_footer{
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+
+
+/*estilos para el formulario*/
+.centrarcontenido{
+  background-image: url(../imagenes/cal.jpg);
+  background-position: center center;
+  background-size: cover;
+  max-width: 54rem;
+  margin: 0 auto;
+  border: 0.1rem solid #7307ff4b;
+  padding: 5rem;
+  color: #ffffff;
+}
+fieldset{
+  border: 0.1rem solid #32bbfa;
+}
+legend{
+  text-align: center;
+}
+
+.abajo{
+  margin-bottom: 2rem;
+}
